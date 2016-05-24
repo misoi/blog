@@ -8,7 +8,7 @@ Setting goals for myself and walking towards them is what has kept me on my toes
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Am a computer science graduate from Kenyatta University. Also i love playing badminton, listening to music when am not coding or during my free time.
 
 ### Contact me
 
