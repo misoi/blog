@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Setting goals for myself and walking towards them is what has kept me on my toes.Am an software developer aspiring to be a world class developer and through my hardwork, patience and intelligence is what will make contribute to me reaching my goals
 
 ### More Information
 
