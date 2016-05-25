@@ -27,7 +27,7 @@ step3: Choose websites or mobile websites on the next page. There you will have 
 Step4: Upon loging in successfull, go to add new app and and choose website.
 Step 5: Input your app name(any name you can easily remember) and enter your email on the modal window. For category choose any and create app id
 step6: Take the code in the quick start page after choosing websitesor mobile website
- this codebelow 
+ this code below 
  
  
  <!DOCTYPE html>
@@ -133,7 +133,7 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
 </body>
 </html>
 
-Also take the script given after creating an app id.Code likw-:
+Also take the script given after creating an app id.Code like-:
 <script>
   window.fbAsyncInit = function() {
     FB.init({
