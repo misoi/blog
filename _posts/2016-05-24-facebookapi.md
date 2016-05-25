@@ -16,7 +16,7 @@ Facebook API that are commonly used:-
 Today am going to show you how to integrate your website with a facebook login Api.
 At the end of this article you will have learn how to integrate and even login using your own facebook account.
 ---
-subtitle: Steps to be followed
+Subtitle: Steps to be followed
 ---
 
 
