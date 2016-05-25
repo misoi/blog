@@ -72,7 +72,7 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
 
   window.fbAsyncInit = function() {
   FB.init({
-    appId      : '{your-app-id}',
+    appId      : '{your-app-id}',# APP ID SHOULD BE ACCURATE AND SAME WITH THE ONE IN SCRIP.
     cookie     : true,  // enable cookies to allow the server to access 
                         // the session
     xfbml      : true,  // parse social plugins on this page
@@ -152,6 +152,14 @@ Also take the script given after creating an app id.Code likw-:
    }(document, 'script', 'facebook-jssdk'));
 </script>
 
+
+Down there enter your website link and click next.
+
+you will see test your facebook integration,at this point you can testit but you will see the "facebook login" icon after hosting your website and you will have killed it :-).
+
+For more precise steps visit http://developers.facebook.com page and follow them one by one.
+
+Thanks
 
 
 
