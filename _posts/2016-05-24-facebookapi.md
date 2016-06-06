@@ -105,9 +105,7 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
       FB.getLoginStatus(function(response) {
         statusChangeCallback(response);
       });
-
       };
-
       // Load the SDK asynchronously
       (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -116,7 +114,6 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
         js.src = "//connect.facebook.net/en_US/sdk.js";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
-
       // Here we run a very simple test of the Graph API after login is
       // successful.  See statusChangeCallback() for when this call is made.
       function testAPI() {
@@ -128,19 +125,15 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
         });
      }
     </script>
-
     <!--
       Below we include the Login Button social plugin. This button uses
     the JavaScript SDK to present a graphical Login button that triggers
     the FB.login() function when clicked.
     -->
-
     <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
     </fb:login-button>
-
     <div id="status">
     </div>
-
     </body>
     </html>
 
