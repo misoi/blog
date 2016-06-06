@@ -43,10 +43,10 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
  
      <!DOCTYPE html>
      <html>
-    <head>
-    <title>Facebook Login JavaScript Example</title>
-    <meta charset="UTF-8">
-    </head>
+     <head>
+     <title>Facebook Login JavaScript Example</title>
+     <meta charset="UTF-8">
+     </head>
     <body>
     <script>
       // This is called with the results from from FB.getLoginStatus().
@@ -59,8 +59,9 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
     // for FB.getLoginStatus().
     if (response.status === 'connected') {
       // Logged into your app and Facebook.
-      testAPI();
-    } else if (response.status === 'not_authorized') {
+      testAPI();}
+      
+      else if (response.status === 'not_authorized') {
       // The person is logged into Facebook, but not your app.
       document.getElementById('status').innerHTML = 'Please log ' +
         'into this app.';
@@ -89,7 +90,6 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
     xfbml      : true,  // parse social plugins on this page
     version    : 'v2.5' // use graph api version 2.5
   });
-
   // Now that we've initialized the JavaScript SDK, we call 
   // FB.getLoginStatus().  This function gets the state of the
   // person visiting this page and can return one of three states to
@@ -145,23 +145,23 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
 </html>
 
 Also take the script given after creating an app id.Code like-:
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '263251174027415',#VERY IMPORTANT WRITE THE CORRECT APP ID IT WILL GIVE YOU BIG ERRORS IF YOU DON'T 
-      xfbml      : true,
-      version    : 'v2.6'
-    });
-  };
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '263251174027415',#VERY IMPORTANT WRITE THE CORRECT APP ID IT WILL GIVE YOU BIG ERRORS IF YOU DON'T 
+          xfbml      : true,
+          version    : 'v2.6'
+        });
+      };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 
 Down there enter your website link and click next.
