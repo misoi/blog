@@ -34,9 +34,9 @@ Step 5: Input your app name(any name you can easily remember) and enter your ema
 step6: Take the code in the quick start page after choosing websitesor mobile website
  this code below 
  
- 
- <!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+
+ <html>
 <head>
 <title>Facebook Login JavaScript Example</title>
 <meta charset="UTF-8">
