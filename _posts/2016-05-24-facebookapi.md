@@ -26,6 +26,7 @@ At the end of this article you will have learn how to integrate and even login u
 ---
 Subtitle: Steps to be followed
 ---
+
 Step1: Search for facebook developers page in the internet or use this link http//:developers.facebook.com and choose facebook login among others.
 
 Step2: On clicking the facebook login, you will be redirected to a page with "the world's number one social login product", scroll down to where you will see "ADD LOGIN" and click on it.
@@ -42,15 +43,15 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
  
     <!DOCTYPE html>
 
- <html>
-<head>
-<title>Facebook Login JavaScript Example</title>
-<meta charset="UTF-8">
-</head>
-<body>
-<script>
-  // This is called with the results from from FB.getLoginStatus().
-  function statusChangeCallback(response) {
+     <html>
+    <head>
+    <title>Facebook Login JavaScript Example</title>
+    <meta charset="UTF-8">
+    </head>
+    <body>
+    <script>
+      // This is called with the results from from FB.getLoginStatus().
+      function statusChangeCallback(response) {
     console.log('statusChangeCallback');
     console.log(response);
     // The response object is returned with a status field that lets the
@@ -72,17 +73,17 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
     }
   }
 
-  // This function is called when someone finishes with the Login
-  // Button.  See the onlogin handler attached to it in the sample
-  // code below.
-  function checkLoginState() {
-    FB.getLoginStatus(function(response) {
+      // This function is called when someone finishes with the Login
+     // Button.  See the onlogin handler attached to it in the sample
+    // code below.
+    function checkLoginState() {
+     FB.getLoginStatus(function(response) {
       statusChangeCallback(response);
     });
   }
 
-  window.fbAsyncInit = function() {
-  FB.init({
+    window.fbAsyncInit = function() {
+    FB.init({
     appId      : '{your-app-id}',# APP ID SHOULD BE ACCURATE AND SAME WITH THE ONE IN SCRIP.
     cookie     : true,  // enable cookies to allow the server to access 
                         // the session
