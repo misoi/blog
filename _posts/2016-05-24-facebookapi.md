@@ -41,8 +41,7 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
  this code below 
  
  
-    <!DOCTYPE html>
-
+     <!DOCTYPE html>
      <html>
     <head>
     <title>Facebook Login JavaScript Example</title>
