@@ -145,6 +145,7 @@ step6: Take the code in the quick start page after choosing websitesor mobile we
 </html>
 
 Also take the script given after creating an app id.Code like-:
+
     <script>
       window.fbAsyncInit = function() {
         FB.init({
