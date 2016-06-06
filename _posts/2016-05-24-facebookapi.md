@@ -24,7 +24,7 @@ Today am going to show you how to integrate your website with a facebook login A
 At the end of this article you will have learn how to integrate and even login using your own facebook account.
 
 ---
-Subtitle: Steps to be followed
+Steps to be followed
 ---
 
 Step1: Search for facebook developers page in the internet or use this link http//:developers.facebook.com and choose facebook login among others.
