@@ -49,6 +49,8 @@ Programmers rarely work alone even if he/she is the only developer in a company.
 
 
 A lot has been discussed above but in addition, enrolling in boot camps do contribute much to the programming competencies. Join Moringa School, as it is one of the best place for passionate and determined programmers to be.
+
+
 “Any fool can write a code that a computer can understand but good programmers writes a code that humans can understand”   Martin Fowler
 
 
