@@ -1,11 +1,11 @@
 ---
 layout: post
-title: How to integrate your website with a facebook account
+title: HOW CAN I BECOME A GOOD PROGRAMMER?
 ---
 
 
 	 	 	
-HOW CAN I BECOME A GOOD PROGRAMMER?
+
 
 “Everybody in the country should learn how to program a computer because it teaches you how to think”
 Steve jobs
